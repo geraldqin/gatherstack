@@ -1,0 +1,1191 @@
+{
+  "commonRetry": {
+    "message": "重試",
+    "description": "Retry button"
+  },
+  "commonNew": {
+    "message": "新建",
+    "description": "Create new item"
+  },
+  "commonImport": {
+    "message": "匯入",
+    "description": "Import button"
+  },
+  "commonRefresh": {
+    "message": "重新整理",
+    "description": "Refresh button"
+  },
+  "commonSave": {
+    "message": "儲存",
+    "description": "Save button"
+  },
+  "commonSaving": {
+    "message": "儲存中…",
+    "description": "Saving in progress with ellipsis"
+  },
+  "commonSavingShort": {
+    "message": "儲存中",
+    "description": "Saving without ellipsis (aria)"
+  },
+  "commonDelete": {
+    "message": "刪除",
+    "description": "Delete button"
+  },
+  "commonDeleting": {
+    "message": "刪除中…",
+    "description": "Deleting in progress"
+  },
+  "commonClose": {
+    "message": "關閉",
+    "description": "Close button"
+  },
+  "commonCopy": {
+    "message": "複製",
+    "description": "Copy button"
+  },
+  "commonCopied": {
+    "message": "已複製",
+    "description": "Copy success feedback"
+  },
+  "commonCopyFailed": {
+    "message": "複製失敗",
+    "description": "Copy failure feedback"
+  },
+  "commonCopyFailedRetry": {
+    "message": "複製失敗，請重試",
+    "description": "Copy failure with retry hint"
+  },
+  "commonExport": {
+    "message": "匯出",
+    "description": "Export button"
+  },
+  "commonExporting": {
+    "message": "匯出中…",
+    "description": "Exporting in progress"
+  },
+  "commonCancel": {
+    "message": "取消",
+    "description": "Cancel button"
+  },
+  "commonDefault": {
+    "message": "預設",
+    "description": "Default badge"
+  },
+  "commonSelectAll": {
+    "message": "全選",
+    "description": "Select all checkbox label"
+  },
+  "commonSelectAllAria": {
+    "message": "全選目前列表",
+    "description": "Select all aria-label"
+  },
+  "commonSelectItemAria": {
+    "message": "選擇 $NAME$",
+    "description": "Select item aria-label",
+    "placeholders": {
+      "NAME": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonDetailTitle": {
+    "message": "詳細資訊",
+    "description": "Detail panel title"
+  },
+  "commonLoading": {
+    "message": "載入中…",
+    "description": "Loading indicator"
+  },
+  "commonEmptyValue": {
+    "message": "（空）",
+    "description": "Empty value placeholder"
+  },
+  "commonTotalCount": {
+    "message": "共 $COUNT$ 個",
+    "description": "Total skill/item count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonSelectedCount": {
+    "message": "已選 $COUNT$ 個",
+    "description": "Selected skill/item count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonTotalRecords": {
+    "message": "共 $COUNT$ 筆",
+    "description": "Total record count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonSelectedRecords": {
+    "message": "已選 $COUNT$ 筆",
+    "description": "Selected record count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonDeleteFailedRetry": {
+    "message": "刪除失敗，請重試",
+    "description": "Delete failure with retry"
+  },
+  "commonSaveFailed": {
+    "message": "儲存失敗",
+    "description": "Save failure"
+  },
+  "commonSaveFailedRetry": {
+    "message": "儲存失敗，請重試",
+    "description": "Save failure with retry"
+  },
+  "commonSaveFailedRetryLater": {
+    "message": "儲存失敗，請稍後重試",
+    "description": "Save failure retry later"
+  },
+  "commonUnsaved": {
+    "message": "未儲存",
+    "description": "Unsaved dirty marker"
+  },
+  "commonUnknownError": {
+    "message": "未知錯誤",
+    "description": "Unknown error fallback"
+  },
+  "optionsNavData": {
+    "message": "資料",
+    "description": "Options nav: Data"
+  },
+  "optionsNavSkill": {
+    "message": "Skill",
+    "description": "Options nav: Skill"
+  },
+  "optionsNavSettings": {
+    "message": "設定",
+    "description": "Options nav: Settings"
+  },
+  "optionsNavAbout": {
+    "message": "關於",
+    "description": "Options nav: About"
+  },
+  "optionsNavDataShort": {
+    "message": "資",
+    "description": "Collapsed nav short for Data"
+  },
+  "optionsNavSettingsShort": {
+    "message": "設",
+    "description": "Collapsed nav short for Settings"
+  },
+  "optionsNavAboutShort": {
+    "message": "關",
+    "description": "Collapsed nav short for About"
+  },
+  "optionsExpandMenu": {
+    "message": "展開選單",
+    "description": "Expand sidebar menu"
+  },
+  "optionsCollapseMenu": {
+    "message": "收起選單",
+    "description": "Collapse sidebar menu"
+  },
+  "optionsAboutProductName": {
+    "message": "智能剪報（GatherStack）",
+    "description": "About: product name line"
+  },
+  "optionsAboutCoreHeading": {
+    "message": "核心用法",
+    "description": "About section: core usage"
+  },
+  "optionsAboutDescription": {
+    "message": "使用 AI 解析各種網頁，儲存到本地，方便後續的彙總處理。",
+    "description": "About: core usage lead"
+  },
+  "optionsAboutWhatExtra": {
+    "message": "適用於：跨網頁資訊採集、處理。",
+    "description": "About: typical uses"
+  },
+  "optionsAboutInspirationHeading": {
+    "message": "靈感來源",
+    "description": "About section: inspiration"
+  },
+  "optionsAboutInspirationP1": {
+    "message": "我在租房子的過程中，需要手動記錄房子位置、租金等各種資訊，然後彙總起來對比。",
+    "description": "About inspiration paragraph 1"
+  },
+  "optionsAboutInspirationP2": {
+    "message": "現在有了大模型，我希望能簡化我的這個操作。",
+    "description": "About inspiration paragraph 2"
+  },
+  "optionsAboutInspirationP3": {
+    "message": "我的規劃是，瀏覽租房網站，看到還可以的租房資訊，就用大模型按照我事先設定好的抽取規則（我這裡叫它 Skill），抽取我關注的資訊，儲存到瀏覽器。",
+    "description": "About inspiration paragraph 3"
+  },
+  "optionsAboutInspirationP4": {
+    "message": "等我覺著找的差不多了，就把存在瀏覽器中的資料，匯出/貼上到 Gemini/豆包/DeepSeek 等 AI 工具，讓它們給我對比。",
+    "description": "About inspiration paragraph 4"
+  },
+  "optionsAboutInspirationP5": {
+    "message": "現在看來，這個工具的模式：自訂抽取規則、用 AI 解析網頁、儲存、彙總、對比，適用於符合這個模式的各種場景，比如：商品的對比、招聘資訊抽取和對比。",
+    "description": "About inspiration paragraph 5"
+  },
+  "optionsAboutHowHeading": {
+    "message": "怎麼用",
+    "description": "About section: how to use"
+  },
+  "optionsAboutHowStep1": {
+    "message": "開啟「$SETTINGS$ → $MODEL$」，填一個外部模型（DeepSeek / OpenAI / 通義 / Claude 等），或載入瀏覽器內建 Gemini Nano。",
+    "description": "About how-to step 1",
+    "placeholders": {
+      "SETTINGS": { "content": "$1" },
+      "MODEL": { "content": "$2" }
+    }
+  },
+  "optionsAboutHowStep2": {
+    "message": "正常瀏覽網站，遇到想要抽取資料的網頁，就點工具列圖示開啟側欄。",
+    "description": "About how-to step 2"
+  },
+  "optionsAboutHowStep3": {
+    "message": "點「$ACTION$」，把網頁讀取到側欄對話框，可以輸入 / 選一條 Skill，也可以口頭規定要讀取的內容。",
+    "description": "About how-to step 3",
+    "placeholders": {
+      "ACTION": { "content": "$1" }
+    }
+  },
+  "optionsAboutHowStep3Note": {
+    "message": "需要注意的是，不同模型的上下文大小不同，有些可能不足以支撐你要解析的網頁。為了盡可能減少因為上下文不夠大導致的錯誤，我已經對網頁進行了裁剪，但是不能保證適配所有模型。所以，當發生錯誤的時候，切換一個更厲害的模型，是一個好的解決辦法。",
+    "description": "About how-to step 3 context-size note"
+  },
+  "optionsAboutHowStep3SkillLimit": {
+    "message": "為了簡化功能，每次對話只能選擇一個 Skill。",
+    "description": "About how-to: single skill per turn"
+  },
+  "optionsAboutHowStep4": {
+    "message": "模型回傳解析結果後點氣泡上的「$STORE$」。到左側「$DATA$」裡檢視、編輯；需要再問模型時，可把紀錄「$EXPORT$」。",
+    "description": "About how-to step 4",
+    "placeholders": {
+      "STORE": { "content": "$1" },
+      "DATA": { "content": "$2" },
+      "EXPORT": { "content": "$3" }
+    }
+  },
+  "optionsAboutSendModeHeading": {
+    "message": "傳送方式",
+    "description": "About section: send modes"
+  },
+  "optionsAboutSendModeIntro": {
+    "message": "為了方便使用，我預置了四種對話方式，傳送鍵左側可切換。",
+    "description": "About send mode intro"
+  },
+  "optionsAboutSendModeChat": {
+    "message": "$LABEL$：走模型，可帶會話歷史。適合問答。",
+    "description": "About send mode: chat",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeDirect": {
+    "message": "$LABEL$：不呼叫模型，立刻寫入本地。適合自己快速儲存資料。",
+    "description": "About send mode: direct store",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeAsync": {
+    "message": "$LABEL$：可以解析多個網頁，同時最多處理 5 個。",
+    "description": "About send mode: async parse",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeOneClick": {
+    "message": "$LABEL$：保持網頁解析設定，自動儲存解析結果，方便連續解析多個網頁。",
+    "description": "About send mode: one-click collect",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeHint": {
+    "message": "你可以在設定中，透過組合對話條件，建立自己的對話方式。",
+    "description": "About send mode custom hint"
+  },
+  "optionsAboutPrivacyHeading": {
+    "message": "資料與隱私",
+    "description": "About section: privacy"
+  },
+  "optionsAboutPrivacyP1": {
+    "message": "採集結果預設只在本機瀏覽器（IndexedDB）。",
+    "description": "About privacy paragraph 1"
+  },
+  "optionsAboutPrivacyP2": {
+    "message": "發給模型的內容，會發到你在設定裡填寫的供應商。",
+    "description": "About privacy paragraph 2"
+  },
+  "optionsAboutPrivacyP3": {
+    "message": "系統頁、擴充功能商店等受保護頁面讀不了。",
+    "description": "About privacy paragraph 3"
+  },
+  "optionsAboutPrivacyP4": {
+    "message": "清除瀏覽器網站資料會丟掉本地庫。",
+    "description": "About privacy paragraph 4"
+  },
+  "optionsAboutPricingHeading": {
+    "message": "關於費用",
+    "description": "About section: pricing"
+  },
+  "optionsAboutPricingP1": {
+    "message": "目前全部功能免費。這個擴充功能在瀏覽器本機執行，沒有伺服器成本。",
+    "description": "About pricing paragraph 1"
+  },
+  "optionsAboutPricingP2": {
+    "message": "以後會不會有付費功能，要看實際使用情況再說。可以確定的是：即便以後有付費，也只會是新增能力；現有功能會一直免費。",
+    "description": "About pricing paragraph 2"
+  },
+  "optionsAboutVersion": {
+    "message": "版本 $VERSION$",
+    "description": "About version line",
+    "placeholders": {
+      "VERSION": { "content": "$1" }
+    }
+  },
+  "optionsAboutBuiltWith": {
+    "message": "Built with Cursor",
+    "description": "About footer credit"
+  },
+  "optionsAboutContactHeading": {
+    "message": "幫我做得更好",
+    "description": "About section: contact heading"
+  },
+  "optionsAboutContact": {
+    "message": "如果你有任何建議，或發現了 bug，歡迎寫信到 $EMAIL$。很期待你的來信！來信主題務必使用前綴 $SUBJECT$。",
+    "description": "About contact paragraph",
+    "placeholders": {
+      "EMAIL": { "content": "$1" },
+      "SUBJECT": { "content": "$2" }
+    }
+  },
+  "optionsAboutGithub": {
+    "message": "GitHub：$REPO$",
+    "description": "About: GitHub repository line",
+    "placeholders": {
+      "REPO": { "content": "$1" }
+    }
+  },
+  "optionsSettingsTitle": {
+    "message": "設定",
+    "description": "Settings page title"
+  },
+  "optionsSettingsSectionModel": {
+    "message": "模型",
+    "description": "Settings section: Models"
+  },
+  "optionsSettingsSectionExternalDb": {
+    "message": "外部資料庫",
+    "description": "Settings section: External DB"
+  },
+  "optionsExternalDbComingSoon": {
+    "message": "外部資料庫設定即將支援。",
+    "description": "External DB coming soon"
+  },
+  "optionsExternalDbPlan": {
+    "message": "計劃接入 MySQL、PostgreSQL 與 remote-api 等同步目標；目前採集資料僅寫入本地 IndexedDB。",
+    "description": "External DB roadmap note"
+  },
+  "dataTitle": {
+    "message": "資料",
+    "description": "Data page title"
+  },
+  "dataLoadFailed": {
+    "message": "無法載入本地資料，請重試",
+    "description": "Data load failure"
+  },
+  "dataEmpty": {
+    "message": "暫無資料",
+    "description": "Empty data list"
+  },
+  "dataExportToSidepanel": {
+    "message": "匯出到側欄",
+    "description": "Export to sidepanel button"
+  },
+  "dataExportedToSidepanel": {
+    "message": "已匯出到側欄",
+    "description": "Export success hint"
+  },
+  "dataExportFailedRetry": {
+    "message": "匯出失敗，請重試",
+    "description": "Export failure"
+  },
+  "dataBulkDeleteConfirm": {
+    "message": "確定刪除已選的 $COUNT$ 筆記錄？此操作不可復原。",
+    "description": "Confirm bulk delete records",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "dataDiscardUnsavedConfirm": {
+    "message": "有未儲存的修改，確定捨棄？",
+    "description": "Discard unsaved record edits"
+  },
+  "dataTitleRequired": {
+    "message": "標題不能為空",
+    "description": "Record title required validation"
+  },
+  "dataRecordGone": {
+    "message": "記錄已不存在，已重新整理列表",
+    "description": "Record missing on save"
+  },
+  "skillTitle": {
+    "message": "Skill",
+    "description": "Skill page title"
+  },
+  "skillBadgeBuiltin": {
+    "message": "內建",
+    "description": "Built-in skill badge"
+  },
+  "skillCreateFromExisting": {
+    "message": "建立副本",
+    "description": "Create a user skill from the selected skill"
+  },
+  "skillCreateFromFailedRetry": {
+    "message": "基於現有 Skill 建立失敗，請重試",
+    "description": "Create-from-existing skill failure"
+  },
+  "skillBuiltinReadonlyHint": {
+    "message": "內建 Skill 不可修改。如需調整，請「建立副本」。",
+    "description": "Hint that built-in skills are read-only"
+  },
+  "skillForkedName": {
+    "message": "$NAME$（副本）",
+    "description": "Default name for a forked skill",
+    "placeholders": {
+      "NAME": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillDiscardUnsavedConfirm": {
+    "message": "有未儲存的修改，確定捨棄？",
+    "description": "Discard unsaved skill edits"
+  },
+  "skillLoadFailed": {
+    "message": "無法載入 skill，請重試（$DETAIL$）",
+    "description": "Skill load failure",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillCreateFailedRetry": {
+    "message": "新建失敗，請重試",
+    "description": "Skill create failure"
+  },
+  "skillFilenameRequired": {
+    "message": "檔名不能為空",
+    "description": "Filename required validation"
+  },
+  "skillContentTooLarge": {
+    "message": "內容超過 512KB 上限",
+    "description": "Skill content size limit"
+  },
+  "skillFileTooLarge": {
+    "message": "檔案過大，上限 512KB",
+    "description": "Skill file size limit"
+  },
+  "skillImportFailedRetry": {
+    "message": "匯入失敗，請重試",
+    "description": "Skill import failure"
+  },
+  "skillBulkDeleteConfirm": {
+    "message": "確定刪除已選的 $COUNT$ 個 Skill？此操作不可復原。",
+    "description": "Confirm bulk delete skills",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillBulkDeleteBuiltinHint": {
+    "message": "其中含內建項：刪除後不會隨擴充功能升級自動還原。",
+    "description": "Bulk delete builtin hint"
+  },
+  "skillOriginLabel": {
+    "message": "來源：",
+    "description": "Skill origin label prefix"
+  },
+  "skillOriginBuiltin": {
+    "message": "內建",
+    "description": "Skill origin: builtin"
+  },
+  "skillOriginUser": {
+    "message": "使用者",
+    "description": "Skill origin: user"
+  },
+  "skillVersionPrefix": {
+    "message": " · 版本 v$VERSION$",
+    "description": "Skill version suffix",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillUnnamed": {
+    "message": "未命名 skill",
+    "description": "Unnamed skill fallback"
+  },
+  "skillDefaultNewName": {
+    "message": "新 Skill",
+    "description": "Default new skill name"
+  },
+  "sidepanelNoSkillsHint": {
+    "message": "暫無 Skill，請到 Options 匯入",
+    "description": "No skills slash hint"
+  },
+  "sidepanelNoSkillMatch": {
+    "message": "無符合 Skill",
+    "description": "No skill match"
+  },
+  "sidepanelSingleSkillHint": {
+    "message": "每次對話只能選擇一個 Skill；再選會替換目前的。",
+    "description": "Slash menu hint: one skill at a time"
+  },
+  "sidepanelOpenSkillInOptions": {
+    "message": "在 Options 中開啟「$NAME$」",
+    "description": "Open skill in Options title",
+    "placeholders": {
+      "NAME": {
+        "content": "$1"
+      }
+    }
+  },
+  "sidepanelRemoveSkillAria": {
+    "message": "移除 Skill",
+    "description": "Remove skill aria-label"
+  },
+  "modelAdd": {
+    "message": "新增",
+    "description": "Add model provider"
+  },
+  "modelConfigLoadFailedNotice": {
+    "message": "設定讀取失敗，已使用空列表",
+    "description": "Model config load notice"
+  },
+  "modelSetDefaultFailedRetry": {
+    "message": "設定預設模型供應商失敗，請稍後重試",
+    "description": "Set default provider failure"
+  },
+  "modelDeleteFailedRetryLater": {
+    "message": "刪除失敗，請稍後重試",
+    "description": "Model delete failure"
+  },
+  "modelFlashRecommendHint": {
+    "message": "解析網頁不需要太高的推理能力，因此推薦採用各廠家的 flash 模型，以提升解析速度。",
+    "description": "Model settings tip: prefer flash-class models"
+  },
+  "modelExternalSection": {
+    "message": "外部模型",
+    "description": "External models section"
+  },
+  "modelExternalEmpty": {
+    "message": "暫無外部模型",
+    "description": "Empty external models"
+  },
+  "modelConfirmDelete": {
+    "message": "確認刪除",
+    "description": "Confirm delete button"
+  },
+  "modelSetDefault": {
+    "message": "設為預設",
+    "description": "Set as default button"
+  },
+  "modelEdit": {
+    "message": "編輯",
+    "description": "Edit button"
+  },
+  "modelFormEditTitle": {
+    "message": "編輯模型供應商",
+    "description": "Edit provider form title"
+  },
+  "modelFormAddTitle": {
+    "message": "新增模型供應商",
+    "description": "Add provider form title"
+  },
+  "modelFormProviderLabel": {
+    "message": "模型供應商",
+    "description": "Provider field label"
+  },
+  "modelFormProviderNameLabel": {
+    "message": "模型供應商名字",
+    "description": "Custom provider name label"
+  },
+  "modelFormAddressLabel": {
+    "message": "地址",
+    "description": "Base URL field label"
+  },
+  "modelFormDefaultModelLabel": {
+    "message": "預設模型",
+    "description": "Default model field label"
+  },
+  "modelFormPleaseSelect": {
+    "message": "請選擇",
+    "description": "Select placeholder"
+  },
+  "modelRefreshModels": {
+    "message": "重新整理模型",
+    "description": "Refresh model list"
+  },
+  "modelBuiltinSection": {
+    "message": "瀏覽器內建",
+    "description": "Builtin models section"
+  },
+  "modelNanoReady": {
+    "message": "已就緒",
+    "description": "Gemini Nano ready status"
+  },
+  "modelNanoDownloadable": {
+    "message": "可載入到本機",
+    "description": "Gemini Nano downloadable"
+  },
+  "modelNanoDownloading": {
+    "message": "載入中…$WAIT$",
+    "description": "Gemini Nano downloading",
+    "placeholders": {
+      "WAIT": {
+        "content": "$1"
+      }
+    }
+  },
+  "modelNanoDownloadingPercent": {
+    "message": "載入中 $PERCENT$%$WAIT$",
+    "description": "Gemini Nano download percent",
+    "placeholders": {
+      "PERCENT": {
+        "content": "$1"
+      },
+      "WAIT": {
+        "content": "$2"
+      }
+    }
+  },
+  "modelNanoWaitSuffix": {
+    "message": " · 已等待 $SECONDS$s",
+    "description": "Wait time suffix",
+    "placeholders": {
+      "SECONDS": {
+        "content": "$1"
+      }
+    }
+  },
+  "modelNanoUnsupported": {
+    "message": "本機不支援 Gemini Nano",
+    "description": "Nano unsupported"
+  },
+  "modelNanoProgressHint": {
+    "message": "瀏覽器可能未回報下載進度。可開啟 chrome://components，找到 Optimization Guide On Device Model，點「檢查更新」；或查看 chrome://on-device-internals。",
+    "description": "Nano progress hint"
+  },
+  "modelNanoCheckStatus": {
+    "message": "檢查狀態",
+    "description": "Check Nano status"
+  },
+  "modelNanoLoad": {
+    "message": "載入",
+    "description": "Load/download Nano"
+  },
+  "modelNanoReload": {
+    "message": "重新載入",
+    "description": "Reload Nano"
+  },
+  "modelNanoStopWaiting": {
+    "message": "停止等待",
+    "description": "Stop waiting for Nano"
+  },
+  "modelNanoUninstall": {
+    "message": "卸載",
+    "description": "Open on-device internals to uninstall Nano"
+  },
+  "modelNanoUninstallHint": {
+    "message": "模型大約4GB，卸載將從磁碟刪除模型",
+    "description": "Hint under Nano uninstall link"
+  },
+  "modelNanoUninstallCopied": {
+    "message": "已複製 chrome://on-device-internals/ ，請貼到網址列開啟後卸載模型",
+    "description": "Clipboard fallback when chrome:// cannot open"
+  },
+  "modelNanoUninstallFailed": {
+    "message": "無法開啟卸載頁，請手動在網址列輸入 chrome://on-device-internals/",
+    "description": "Uninstall page open and copy both failed"
+  },
+  "modelPresetCustom": {
+    "message": "自訂",
+    "description": "Custom provider preset"
+  },
+  "modelValidateKeyRequired": {
+    "message": "請填寫 Key",
+    "description": "API key validation"
+  },
+  "modelValidateNameRequired": {
+    "message": "請填寫模型供應商名字",
+    "description": "Provider name validation"
+  },
+  "modelValidateUrlRequired": {
+    "message": "請填寫地址",
+    "description": "URL required validation"
+  },
+  "modelValidateUrlScheme": {
+    "message": "地址必須以 http:// 或 https:// 開頭",
+    "description": "URL scheme validation"
+  },
+  "modelListFetchFailed": {
+    "message": "無法取得模型列表，可手動填寫模型名",
+    "description": "Model list fetch failure"
+  },
+  "modelNeedProvider": {
+    "message": "請先在管理頁設定供應商",
+    "description": "Need provider configured"
+  },
+  "modelSelectModel": {
+    "message": "選擇模型",
+    "description": "Select model label"
+  },
+  "modelNanoNeedDownload": {
+    "message": "請先在管理頁載入 Gemini Nano",
+    "description": "Need Nano download"
+  },
+  "modelNanoChromeUnsupported": {
+    "message": "目前 Chrome 不支援端側模型",
+    "description": "Chrome unsupported Nano"
+  },
+  "modelNanoDownloadFailed": {
+    "message": "載入失敗，請重試",
+    "description": "Nano download failure"
+  },
+  "sendModeChatLabel": {
+    "message": "正常對話",
+    "description": "Send mode: chat label"
+  },
+  "sendModeChatDescription": {
+    "message": "請求大模型",
+    "description": "Send mode: chat description"
+  },
+  "sendModeDirectStoreLabel": {
+    "message": "直接儲存",
+    "description": "Send mode: direct store label"
+  },
+  "sendModeDirectStoreDescription": {
+    "message": "不呼叫模型，寫入本地庫",
+    "description": "Send mode: direct store description"
+  },
+  "sendModeAsyncParseLabel": {
+    "message": "非同步解析",
+    "description": "Send mode: async parse label"
+  },
+  "sendModeAsyncParseDescription": {
+    "message": "可不帶歷史連續傳送，完成後手動儲存",
+    "description": "Send mode: async parse description"
+  },
+  "sendModeOneClickCollectLabel": {
+    "message": "一鍵採集",
+    "description": "Send mode: one-click collect label"
+  },
+  "sendModeOneClickCollectDescription": {
+    "message": "保持解析設定，結果自動入庫，便於連採多頁",
+    "description": "Send mode: one-click collect description"
+  },
+  "asyncParseJobPreviewPage": {
+    "message": "目前頁面",
+    "description": "Async job preview when only page attachment"
+  },
+  "asyncParseJobPreviewEmpty": {
+    "message": "（空）",
+    "description": "Async job preview fallback"
+  },
+  "asyncParseQueueStatus": {
+    "message": "進行中 $RUNNING$/$LIMIT$ · 排隊 $QUEUED$",
+    "description": "Async parse queue status strip",
+    "placeholders": {
+      "RUNNING": { "content": "$1" },
+      "LIMIT": { "content": "$2" },
+      "QUEUED": { "content": "$3" }
+    }
+  },
+  "asyncParseStopButton": {
+    "message": "停止任務",
+    "description": "Open async stop dialog"
+  },
+  "asyncParseStopDialogTitle": {
+    "message": "選擇要停止的任務",
+    "description": "Async stop dialog title"
+  },
+  "asyncParseStopRunning": {
+    "message": "進行中",
+    "description": "Async stop section running"
+  },
+  "asyncParseStopQueued": {
+    "message": "排隊中",
+    "description": "Async stop section queued"
+  },
+  "asyncParseStopConfirm": {
+    "message": "停止所選",
+    "description": "Confirm cancel selected async jobs"
+  },
+  "asyncParseStopCancel": {
+    "message": "取消",
+    "description": "Dismiss async stop dialog"
+  },
+  "sidepanelMessageStop": {
+    "message": "停止",
+    "description": "Stop streaming on a message bubble"
+  },
+  "sidepanelMessageExpand": {
+    "message": "展開全文",
+    "description": "Expand long assistant bubble"
+  },
+  "sidepanelMessageCollapse": {
+    "message": "收起",
+    "description": "Collapse long assistant bubble"
+  },
+  "optionsAsyncParseIntro": {
+    "message": "對應側欄傳送方式中的「非同步解析」：可同時傳送多筆請求，不必等上一筆返回；模型完成後需手動點「儲存」入庫。",
+    "description": "Async parse settings intro"
+  },
+  "optionsSendModeIntro": {
+    "message": "側欄傳送方式來自本列表。內建方式唯讀，可「建立副本」後調整（含是否自動儲存、非同步並行等）。",
+    "description": "Send mode settings intro"
+  },
+  "sendModeUntitledName": {
+    "message": "未命名傳送方式",
+    "description": "Default name for new send mode"
+  },
+  "sendModeForkedName": {
+    "message": "$NAME$ 副本",
+    "description": "Forked send mode name",
+    "placeholders": {
+      "NAME": { "content": "$1" }
+    }
+  },
+  "sendModeCreateFailedRetry": {
+    "message": "建立失敗，請重試",
+    "description": "Create send mode failed"
+  },
+  "sendModeCreateFromFailedRetry": {
+    "message": "建立副本失敗，請重試",
+    "description": "Fork send mode failed"
+  },
+  "sendModeBuiltinReadonlyHint": {
+    "message": "內建傳送方式不可直接修改，請先建立副本。",
+    "description": "Builtin send mode readonly hint"
+  },
+  "sendModeNameRequired": {
+    "message": "請填寫名稱",
+    "description": "Send mode name required"
+  },
+  "sendModeDeleteConfirm": {
+    "message": "確定刪除「$NAME$」？",
+    "description": "Confirm delete send mode",
+    "placeholders": {
+      "NAME": { "content": "$1" }
+    }
+  },
+  "sendModeBulkDeleteConfirm": {
+    "message": "確定刪除已選的 $COUNT$ 個傳送方式？此操作不可復原。",
+    "description": "Confirm bulk delete send modes",
+    "placeholders": {
+      "COUNT": { "content": "$1" }
+    }
+  },
+  "sendModeBulkDeleteBuiltinHint": {
+    "message": "其中含內建項：刪除後不會隨擴充功能升級自動還原。",
+    "description": "Bulk delete builtin send mode hint"
+  },
+  "sendModeDiscardUnsavedConfirm": {
+    "message": "有未儲存的修改，確定捨棄？",
+    "description": "Discard unsaved send mode edits"
+  },
+  "sendModeLoadFailed": {
+    "message": "載入傳送方式失敗",
+    "description": "Load send modes failed"
+  },
+  "sendModeFieldName": {
+    "message": "名稱",
+    "description": "Send mode name field"
+  },
+  "sendModeFieldDescription": {
+    "message": "說明",
+    "description": "Send mode description field"
+  },
+  "sendModeFlagsLegend": {
+    "message": "組合條件",
+    "description": "Send mode flags legend"
+  },
+  "sendModeFlagCallModel": {
+    "message": "呼叫大型模型",
+    "description": "Flag: call model"
+  },
+  "sendModeFlagAutoSaveLabel": {
+    "message": "自動儲存",
+    "description": "Flag: auto save"
+  },
+  "sendModeFlagIncludeHistory": {
+    "message": "帶會話歷史",
+    "description": "Flag: include history"
+  },
+  "sendModeFlagAsyncLabel": {
+    "message": "非同步（可連發排隊）",
+    "description": "Flag: async"
+  },
+  "sendModeFlagModel": {
+    "message": "調模型",
+    "description": "Summary: model"
+  },
+  "sendModeFlagNoModel": {
+    "message": "不呼叫模型",
+    "description": "Summary: no model"
+  },
+  "sendModeFlagAsync": {
+    "message": "非同步",
+    "description": "Summary: async"
+  },
+  "sendModeFlagAutoSave": {
+    "message": "自動存",
+    "description": "Summary: auto save"
+  },
+  "sendModeFlagManualSave": {
+    "message": "手動存",
+    "description": "Summary: manual save"
+  },
+  "sendModeFlagHistory": {
+    "message": "歷史",
+    "description": "Summary: history"
+  },
+  "optionsAsyncParseMaxConcurrent": {
+    "message": "同時進行的任務數",
+    "description": "Max concurrent async parse jobs label"
+  },
+  "optionsAsyncParseMaxConcurrentHint": {
+    "message": "可設 1–20，預設 5。超過上限的會排隊，不會丟掉。",
+    "description": "Hint for max concurrent"
+  },
+  "optionsSettingsSectionAsyncParse": {
+    "message": "傳送方式",
+    "description": "Settings nav section send mode"
+  },
+  "sendModeOpenSettingsLink": {
+    "message": "設定",
+    "description": "Sidepanel send-mode menu link to settings"
+  },
+  "sendModePickerAria": {
+    "message": "傳送方式",
+    "description": "Send mode picker aria"
+  },
+  "sendModeWithLabelAria": {
+    "message": "傳送方式：$LABEL$",
+    "description": "Send mode button aria with label",
+    "placeholders": {
+      "LABEL": {
+        "content": "$1"
+      }
+    }
+  },
+  "sidepanelSessionAria": {
+    "message": "工作階段",
+    "description": "Session select aria"
+  },
+  "sidepanelManage": {
+    "message": "管理",
+    "description": "Open Options manage button"
+  },
+  "sidepanelDeleteSessionConfirm": {
+    "message": "確定刪除目前工作階段？",
+    "description": "Confirm delete session"
+  },
+  "sidepanelSessionEvicted": {
+    "message": "工作階段已滿，已刪除最舊工作階段",
+    "description": "Oldest session evicted notice"
+  },
+  "sidepanelRequestFailed": {
+    "message": "請求失敗，請重試",
+    "description": "Chat request failure"
+  },
+  "sidepanelExportDataNotFound": {
+    "message": "未找到要匯出的資料",
+    "description": "Export data not found"
+  },
+  "sidepanelExportToSidepanelFailed": {
+    "message": "匯出到側欄失敗",
+    "description": "Export to sidepanel failed"
+  },
+  "sidepanelDirectStoreNotJson": {
+    "message": "未識別為 JSON，已整段儲存",
+    "description": "Direct store non-JSON notice"
+  },
+  "sidepanelDirectStoreCannotSave": {
+    "message": "無法儲存",
+    "description": "Direct store cannot save"
+  },
+  "sidepanelInputPlaceholder": {
+    "message": "輸入訊息… 或 / 選擇 Skill",
+    "description": "Chat input placeholder"
+  },
+  "sidepanelReadPageArmedTitle": {
+    "message": "已啟用自動採集目前頁",
+    "description": "Read page button title when one-click auto collect is armed"
+  },
+  "sidepanelReadPage": {
+    "message": "讀取目前頁面",
+    "description": "Read page button"
+  },
+  "sidepanelReadingPage": {
+    "message": "讀取中…",
+    "description": "Reading page in progress"
+  },
+  "sidepanelStop": {
+    "message": "停止",
+    "description": "Stop streaming"
+  },
+  "sidepanelSend": {
+    "message": "傳送",
+    "description": "Send button"
+  },
+  "sidepanelEmptyMessages": {
+    "message": "暫無訊息",
+    "description": "Empty message list"
+  },
+  "sidepanelMessageSaved": {
+    "message": "已儲存",
+    "description": "Message saved feedback"
+  },
+  "sidepanelMessageStored": {
+    "message": "已存",
+    "description": "Message stored badge"
+  },
+  "sidepanelStoreMessage": {
+    "message": "儲存",
+    "description": "Store message button"
+  },
+  "sidepanelCopyAria": {
+    "message": "複製",
+    "description": "Copy message aria"
+  },
+  "attachmentRemoveAria": {
+    "message": "移除附件",
+    "description": "Remove attachment aria"
+  },
+  "attachmentCopyPageContent": {
+    "message": "複製頁面內容",
+    "description": "Copy page content"
+  },
+  "attachmentBodyNotSavedRecord": {
+    "message": "正文未儲存，請從資料頁重新匯出",
+    "description": "Missing record body"
+  },
+  "attachmentBodyNotSavedPage": {
+    "message": "正文未儲存，請重新讀取目前頁面",
+    "description": "Missing page body"
+  },
+  "attachmentLoadOriginal": {
+    "message": "讀取網頁原始內容",
+    "description": "Load original page HTML"
+  },
+  "attachmentSimplifyMarkdown": {
+    "message": "簡化為 markdown",
+    "description": "Simplify to Markdown"
+  },
+  "attachmentStripNoise": {
+    "message": "去除冗餘",
+    "description": "Strip noise"
+  },
+  "sessionDefaultTitle": {
+    "message": "對話",
+    "description": "Default session title"
+  },
+  "recordTitleUserMessage": {
+    "message": "使用者訊息",
+    "description": "Default title for user message record"
+  },
+  "recordTitleAssistantMessage": {
+    "message": "助手訊息",
+    "description": "Default title for assistant message record"
+  },
+  "recordTitleArrayItems": {
+    "message": "陣列 · $COUNT$ 項",
+    "description": "Array record title",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "recordTitleObjectItems": {
+    "message": "$OBJECT$ · $COUNT$ 項",
+    "description": "Object array record title",
+    "placeholders": {
+      "OBJECT": {
+        "content": "$1"
+      },
+      "COUNT": {
+        "content": "$2"
+      }
+    }
+  },
+  "recordSelectedBundleTitle": {
+    "message": "已選 $COUNT$ 筆",
+    "description": "Multi-select attachment title",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "recordNoJsonFound": {
+    "message": "未找到可儲存的 JSON",
+    "description": "No JSON to save"
+  },
+  "errorReadDomNoTab": {
+    "message": "沒有可讀取的分頁",
+    "description": "No readable tab"
+  },
+  "errorReadDomRestricted": {
+    "message": "目前頁面無法讀取（系統頁或受保護頁面）",
+    "description": "Restricted page read"
+  },
+  "errorReadDomFail": {
+    "message": "讀取頁面失敗，請重試",
+    "description": "Page read failure"
+  },
+  "errorExportNoSelection": {
+    "message": "未選擇資料",
+    "description": "No export selection"
+  },
+  "errorExportSidepanelOpenFailed": {
+    "message": "無法開啟側欄",
+    "description": "Sidepanel open failure"
+  },
+  "errorDriverNotImplemented": {
+    "message": "儲存驅動尚未實作: $DRIVER$",
+    "description": "Unimplemented storage driver",
+    "placeholders": {
+      "DRIVER": {
+        "content": "$1"
+      }
+    }
+  },
+  "extensionName": {
+    "message": "智能剪報",
+    "description": "Extension display name (GatherStack)"
+  },
+  "extensionDescription": {
+    "message": "一鍵提取商品、房源、求職核心參數，自動打包投餵 AI 輕鬆比價，資料 100% 留存在你的本機。",
+    "description": "Extension store/description text"
+  }
+}

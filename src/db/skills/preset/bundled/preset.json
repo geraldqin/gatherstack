@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "builtinId": "rent-compare-collect",
+      "version": "1.0.0",
+      "locales": {
+        "zh": "rent-compare-collect.md",
+        "en": "rent-compare-collect.en.md"
+      }
+    },
+    {
+      "builtinId": "rent-compare-evaluate",
+      "version": "1.0.0",
+      "locales": {
+        "zh": "rent-compare-evaluate.md",
+        "en": "rent-compare-evaluate.en.md"
+      }
+    }
+  ]
+}

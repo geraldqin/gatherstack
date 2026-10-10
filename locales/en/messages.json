@@ -1,0 +1,1191 @@
+{
+  "commonRetry": {
+    "message": "Retry",
+    "description": "Retry button"
+  },
+  "commonNew": {
+    "message": "New",
+    "description": "Create new item"
+  },
+  "commonImport": {
+    "message": "Import",
+    "description": "Import button"
+  },
+  "commonRefresh": {
+    "message": "Refresh",
+    "description": "Refresh button"
+  },
+  "commonSave": {
+    "message": "Save",
+    "description": "Save button"
+  },
+  "commonSaving": {
+    "message": "Saving…",
+    "description": "Saving in progress with ellipsis"
+  },
+  "commonSavingShort": {
+    "message": "Saving",
+    "description": "Saving without ellipsis (aria)"
+  },
+  "commonDelete": {
+    "message": "Delete",
+    "description": "Delete button"
+  },
+  "commonDeleting": {
+    "message": "Deleting…",
+    "description": "Deleting in progress"
+  },
+  "commonClose": {
+    "message": "Close",
+    "description": "Close button"
+  },
+  "commonCopy": {
+    "message": "Copy",
+    "description": "Copy button"
+  },
+  "commonCopied": {
+    "message": "Copied",
+    "description": "Copy success feedback"
+  },
+  "commonCopyFailed": {
+    "message": "Copy failed",
+    "description": "Copy failure feedback"
+  },
+  "commonCopyFailedRetry": {
+    "message": "Copy failed, please try again",
+    "description": "Copy failure with retry hint"
+  },
+  "commonExport": {
+    "message": "Export",
+    "description": "Export button"
+  },
+  "commonExporting": {
+    "message": "Exporting…",
+    "description": "Exporting in progress"
+  },
+  "commonCancel": {
+    "message": "Cancel",
+    "description": "Cancel button"
+  },
+  "commonDefault": {
+    "message": "Default",
+    "description": "Default badge"
+  },
+  "commonSelectAll": {
+    "message": "Select all",
+    "description": "Select all checkbox label"
+  },
+  "commonSelectAllAria": {
+    "message": "Select all in list",
+    "description": "Select all aria-label"
+  },
+  "commonSelectItemAria": {
+    "message": "Select $NAME$",
+    "description": "Select item aria-label",
+    "placeholders": {
+      "NAME": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonDetailTitle": {
+    "message": "Details",
+    "description": "Detail panel title"
+  },
+  "commonLoading": {
+    "message": "Loading…",
+    "description": "Loading indicator"
+  },
+  "commonEmptyValue": {
+    "message": "(empty)",
+    "description": "Empty value placeholder"
+  },
+  "commonTotalCount": {
+    "message": "$COUNT$ total",
+    "description": "Total skill/item count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonSelectedCount": {
+    "message": "$COUNT$ selected",
+    "description": "Selected skill/item count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonTotalRecords": {
+    "message": "$COUNT$ records total",
+    "description": "Total record count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonSelectedRecords": {
+    "message": "$COUNT$ records selected",
+    "description": "Selected record count",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "commonDeleteFailedRetry": {
+    "message": "Delete failed, please try again",
+    "description": "Delete failure with retry"
+  },
+  "commonSaveFailed": {
+    "message": "Save failed",
+    "description": "Save failure"
+  },
+  "commonSaveFailedRetry": {
+    "message": "Save failed, please try again",
+    "description": "Save failure with retry"
+  },
+  "commonSaveFailedRetryLater": {
+    "message": "Save failed, please try again later",
+    "description": "Save failure retry later"
+  },
+  "commonUnsaved": {
+    "message": "Unsaved",
+    "description": "Unsaved dirty marker"
+  },
+  "commonUnknownError": {
+    "message": "Unknown error",
+    "description": "Unknown error fallback"
+  },
+  "optionsNavData": {
+    "message": "Data",
+    "description": "Options nav: Data"
+  },
+  "optionsNavSkill": {
+    "message": "Skill",
+    "description": "Options nav: Skill"
+  },
+  "optionsNavSettings": {
+    "message": "Settings",
+    "description": "Options nav: Settings"
+  },
+  "optionsNavAbout": {
+    "message": "About",
+    "description": "Options nav: About"
+  },
+  "optionsNavDataShort": {
+    "message": "D",
+    "description": "Collapsed nav short for Data"
+  },
+  "optionsNavSettingsShort": {
+    "message": "S",
+    "description": "Collapsed nav short for Settings"
+  },
+  "optionsNavAboutShort": {
+    "message": "A",
+    "description": "Collapsed nav short for About"
+  },
+  "optionsExpandMenu": {
+    "message": "Expand menu",
+    "description": "Expand sidebar menu"
+  },
+  "optionsCollapseMenu": {
+    "message": "Collapse menu",
+    "description": "Collapse sidebar menu"
+  },
+  "optionsAboutProductName": {
+    "message": "GatherStack",
+    "description": "About: product name line"
+  },
+  "optionsAboutCoreHeading": {
+    "message": "What it does",
+    "description": "About section: core usage"
+  },
+  "optionsAboutDescription": {
+    "message": "Use AI to parse web pages, store the results locally, and make later summarization and comparison easier.",
+    "description": "About: core usage lead"
+  },
+  "optionsAboutWhatExtra": {
+    "message": "Best for: collecting and processing information across many pages.",
+    "description": "About: typical uses"
+  },
+  "optionsAboutInspirationHeading": {
+    "message": "Where it came from",
+    "description": "About section: inspiration"
+  },
+  "optionsAboutInspirationP1": {
+    "message": "While apartment hunting, I had to manually note locations, rent, and other details, then gather them for comparison.",
+    "description": "About inspiration paragraph 1"
+  },
+  "optionsAboutInspirationP2": {
+    "message": "With large language models available, I wanted to simplify that workflow.",
+    "description": "About inspiration paragraph 2"
+  },
+  "optionsAboutInspirationP3": {
+    "message": "The idea: browse rental sites, and when one looks promising, ask a model to extract the fields I care about using rules I set up ahead of time (I call them Skills), then save the result in the browser.",
+    "description": "About inspiration paragraph 3"
+  },
+  "optionsAboutInspirationP4": {
+    "message": "Once I've saved a solid set, I export or paste the stored data into Gemini, Doubao, DeepSeek, or similar tools and let them compare for me.",
+    "description": "About inspiration paragraph 4"
+  },
+  "optionsAboutInspirationP5": {
+    "message": "That pattern—custom extract rules, AI page parsing, local storage, then summarize and compare—also fits product comparisons, job listings, and similar cross-page tasks.",
+    "description": "About inspiration paragraph 5"
+  },
+  "optionsAboutHowHeading": {
+    "message": "How to use",
+    "description": "About section: how to use"
+  },
+  "optionsAboutHowStep1": {
+    "message": "Open “$SETTINGS$ → $MODEL$”, add an external model (DeepSeek, OpenAI, DashScope, Claude, …), or load Chrome’s on-device Gemini Nano.",
+    "description": "About how-to step 1",
+    "placeholders": {
+      "SETTINGS": { "content": "$1" },
+      "MODEL": { "content": "$2" }
+    }
+  },
+  "optionsAboutHowStep2": {
+    "message": "Browse as usual; when you find a page you want to extract from, click the toolbar icon to open the side panel.",
+    "description": "About how-to step 2"
+  },
+  "optionsAboutHowStep3": {
+    "message": "Click “$ACTION$” to load the page into the side-panel chat. You can type / to pick a Skill, or just say what you want to extract.",
+    "description": "About how-to step 3",
+    "placeholders": {
+      "ACTION": { "content": "$1" }
+    }
+  },
+  "optionsAboutHowStep3Note": {
+    "message": "Models have different context limits; some may be too small for the page you want to extract from. Pages are trimmed to reduce context overflow, but that cannot cover every model. If something fails, switching to a stronger model is often a good fix.",
+    "description": "About how-to step 3 context-size note"
+  },
+  "optionsAboutHowStep3SkillLimit": {
+    "message": "To keep things simple, each chat turn can only use one Skill.",
+    "description": "About how-to: single skill per turn"
+  },
+  "optionsAboutHowStep4": {
+    "message": "After the model returns a result, click “$STORE$” on the bubble. Review and edit under “$DATA$” on the left. To ask the model again, “$EXPORT$” the record.",
+    "description": "About how-to step 4",
+    "placeholders": {
+      "STORE": { "content": "$1" },
+      "DATA": { "content": "$2" },
+      "EXPORT": { "content": "$3" }
+    }
+  },
+  "optionsAboutSendModeHeading": {
+    "message": "Send modes",
+    "description": "About section: send modes"
+  },
+  "optionsAboutSendModeIntro": {
+    "message": "Four built-in send modes are available; switch them to the left of Send.",
+    "description": "About send mode intro"
+  },
+  "optionsAboutSendModeChat": {
+    "message": "$LABEL$: calls the model and can include chat history. Best for Q&A.",
+    "description": "About send mode: chat",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeDirect": {
+    "message": "$LABEL$: skips the model and writes locally right away. Best for quick manual saves.",
+    "description": "About send mode: direct store",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeAsync": {
+    "message": "$LABEL$: run multiple page parses in parallel—no need to wait for the previous reply. Up to 5 at a time by default.",
+    "description": "About send mode: async parse",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeOneClick": {
+    "message": "$LABEL$: keep your page-parse setup and auto-save results—handy for parsing multiple pages continuously.",
+    "description": "About send mode: one-click collect",
+    "placeholders": {
+      "LABEL": { "content": "$1" }
+    }
+  },
+  "optionsAboutSendModeHint": {
+    "message": "In Settings, combine chat conditions to create your own send modes.",
+    "description": "About send mode custom hint"
+  },
+  "optionsAboutPrivacyHeading": {
+    "message": "Data and privacy",
+    "description": "About section: privacy"
+  },
+  "optionsAboutPrivacyP1": {
+    "message": "Collected records stay in this browser by default (IndexedDB).",
+    "description": "About privacy paragraph 1"
+  },
+  "optionsAboutPrivacyP2": {
+    "message": "Anything sent to a model goes to the provider you configured in Settings.",
+    "description": "About privacy paragraph 2"
+  },
+  "optionsAboutPrivacyP3": {
+    "message": "System pages and the Chrome Web Store cannot be read.",
+    "description": "About privacy paragraph 3"
+  },
+  "optionsAboutPrivacyP4": {
+    "message": "Clearing this extension’s site data deletes the local store.",
+    "description": "About privacy paragraph 4"
+  },
+  "optionsAboutPricingHeading": {
+    "message": "Pricing",
+    "description": "About section: pricing"
+  },
+  "optionsAboutPricingP1": {
+    "message": "Everything is free for now. The extension runs locally in your browser, so there are no server costs.",
+    "description": "About pricing paragraph 1"
+  },
+  "optionsAboutPricingP2": {
+    "message": "Whether paid features show up later depends on how people actually use it. One thing is fixed: if anything becomes paid, it will only be new capabilities; what you can use today stays free.",
+    "description": "About pricing paragraph 2"
+  },
+  "optionsAboutVersion": {
+    "message": "Version $VERSION$",
+    "description": "About version line",
+    "placeholders": {
+      "VERSION": { "content": "$1" }
+    }
+  },
+  "optionsAboutBuiltWith": {
+    "message": "Built with Cursor",
+    "description": "About footer credit"
+  },
+  "optionsAboutContactHeading": {
+    "message": "Help me make it better",
+    "description": "About section: contact heading"
+  },
+  "optionsAboutContact": {
+    "message": "If you have any suggestions or find any bugs, please drop me a line at $EMAIL$. I'd love to hear from you! Please keep the subject starting with $SUBJECT$.",
+    "description": "About contact paragraph",
+    "placeholders": {
+      "EMAIL": { "content": "$1" },
+      "SUBJECT": { "content": "$2" }
+    }
+  },
+  "optionsAboutGithub": {
+    "message": "GitHub: $REPO$",
+    "description": "About: GitHub repository line",
+    "placeholders": {
+      "REPO": { "content": "$1" }
+    }
+  },
+  "optionsSettingsTitle": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "optionsSettingsSectionModel": {
+    "message": "Models",
+    "description": "Settings section: Models"
+  },
+  "optionsSettingsSectionExternalDb": {
+    "message": "External database",
+    "description": "Settings section: External DB"
+  },
+  "optionsExternalDbComingSoon": {
+    "message": "External database configuration coming soon.",
+    "description": "External DB coming soon"
+  },
+  "optionsExternalDbPlan": {
+    "message": "Planned support for MySQL, PostgreSQL, remote-api sync targets; collected data is currently stored in local IndexedDB only.",
+    "description": "External DB roadmap note"
+  },
+  "dataTitle": {
+    "message": "Data",
+    "description": "Data page title"
+  },
+  "dataLoadFailed": {
+    "message": "Couldn't load local data, please try again",
+    "description": "Data load failure"
+  },
+  "dataEmpty": {
+    "message": "No data yet",
+    "description": "Empty data list"
+  },
+  "dataExportToSidepanel": {
+    "message": "Export to side panel",
+    "description": "Export to sidepanel button"
+  },
+  "dataExportedToSidepanel": {
+    "message": "Exported to side panel",
+    "description": "Export success hint"
+  },
+  "dataExportFailedRetry": {
+    "message": "Export failed, please try again",
+    "description": "Export failure"
+  },
+  "dataBulkDeleteConfirm": {
+    "message": "Delete $COUNT$ selected records? This can't be undone.",
+    "description": "Confirm bulk delete records",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "dataDiscardUnsavedConfirm": {
+    "message": "You have unsaved changes. Discard them?",
+    "description": "Discard unsaved record edits"
+  },
+  "dataTitleRequired": {
+    "message": "Title is required",
+    "description": "Record title required validation"
+  },
+  "dataRecordGone": {
+    "message": "Record no longer exists; list refreshed",
+    "description": "Record missing on save"
+  },
+  "skillTitle": {
+    "message": "Skill",
+    "description": "Skill page title"
+  },
+  "skillBadgeBuiltin": {
+    "message": "Built-in",
+    "description": "Built-in skill badge"
+  },
+  "skillCreateFromExisting": {
+    "message": "Duplicate",
+    "description": "Create a user skill from the selected skill"
+  },
+  "skillCreateFromFailedRetry": {
+    "message": "Couldn't create from this skill, please try again",
+    "description": "Create-from-existing skill failure"
+  },
+  "skillBuiltinReadonlyHint": {
+    "message": "Built-in skills can't be edited. Use Duplicate to make your own copy.",
+    "description": "Hint that built-in skills are read-only"
+  },
+  "skillForkedName": {
+    "message": "$NAME$ (copy)",
+    "description": "Default name for a forked skill",
+    "placeholders": {
+      "NAME": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillDiscardUnsavedConfirm": {
+    "message": "You have unsaved changes. Discard them?",
+    "description": "Discard unsaved skill edits"
+  },
+  "skillLoadFailed": {
+    "message": "Couldn't load skills, please try again ($DETAIL$)",
+    "description": "Skill load failure",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillCreateFailedRetry": {
+    "message": "Create failed, please try again",
+    "description": "Skill create failure"
+  },
+  "skillFilenameRequired": {
+    "message": "Filename can't be empty",
+    "description": "Filename required validation"
+  },
+  "skillContentTooLarge": {
+    "message": "Content exceeds 512KB limit",
+    "description": "Skill content size limit"
+  },
+  "skillFileTooLarge": {
+    "message": "File too large (512KB max)",
+    "description": "Skill file size limit"
+  },
+  "skillImportFailedRetry": {
+    "message": "Import failed, please try again",
+    "description": "Skill import failure"
+  },
+  "skillBulkDeleteConfirm": {
+    "message": "Delete $COUNT$ selected skills? This can't be undone.",
+    "description": "Confirm bulk delete skills",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillBulkDeleteBuiltinHint": {
+    "message": "Includes built-in items that won't be restored on upgrade.",
+    "description": "Bulk delete builtin hint"
+  },
+  "skillOriginLabel": {
+    "message": "Origin: ",
+    "description": "Skill origin label prefix"
+  },
+  "skillOriginBuiltin": {
+    "message": "Built-in",
+    "description": "Skill origin: builtin"
+  },
+  "skillOriginUser": {
+    "message": "User",
+    "description": "Skill origin: user"
+  },
+  "skillVersionPrefix": {
+    "message": " · v$VERSION$",
+    "description": "Skill version suffix",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1"
+      }
+    }
+  },
+  "skillUnnamed": {
+    "message": "Unnamed skill",
+    "description": "Unnamed skill fallback"
+  },
+  "skillDefaultNewName": {
+    "message": "New Skill",
+    "description": "Default new skill name"
+  },
+  "sidepanelNoSkillsHint": {
+    "message": "No skills yet — import in Options",
+    "description": "No skills slash hint"
+  },
+  "sidepanelNoSkillMatch": {
+    "message": "No matching skills",
+    "description": "No skill match"
+  },
+  "sidepanelSingleSkillHint": {
+    "message": "Only one Skill per turn; picking another replaces the current one.",
+    "description": "Slash menu hint: one skill at a time"
+  },
+  "sidepanelOpenSkillInOptions": {
+    "message": "Open \"$NAME$\" in Options",
+    "description": "Open skill in Options title",
+    "placeholders": {
+      "NAME": {
+        "content": "$1"
+      }
+    }
+  },
+  "sidepanelRemoveSkillAria": {
+    "message": "Remove skill",
+    "description": "Remove skill aria-label"
+  },
+  "modelAdd": {
+    "message": "Add",
+    "description": "Add model provider"
+  },
+  "modelConfigLoadFailedNotice": {
+    "message": "Config read failed — using empty list",
+    "description": "Model config load notice"
+  },
+  "modelSetDefaultFailedRetry": {
+    "message": "Couldn't set default provider, please try again later",
+    "description": "Set default provider failure"
+  },
+  "modelDeleteFailedRetryLater": {
+    "message": "Delete failed, please try again later",
+    "description": "Model delete failure"
+  },
+  "modelFlashRecommendHint": {
+    "message": "Parsing web pages does not need strong reasoning, so we recommend each provider's flash-class models for faster extraction.",
+    "description": "Model settings tip: prefer flash-class models"
+  },
+  "modelExternalSection": {
+    "message": "External models",
+    "description": "External models section"
+  },
+  "modelExternalEmpty": {
+    "message": "No external models yet",
+    "description": "Empty external models"
+  },
+  "modelConfirmDelete": {
+    "message": "Confirm delete",
+    "description": "Confirm delete button"
+  },
+  "modelSetDefault": {
+    "message": "Set as default",
+    "description": "Set as default button"
+  },
+  "modelEdit": {
+    "message": "Edit",
+    "description": "Edit button"
+  },
+  "modelFormEditTitle": {
+    "message": "Edit model provider",
+    "description": "Edit provider form title"
+  },
+  "modelFormAddTitle": {
+    "message": "Add model provider",
+    "description": "Add provider form title"
+  },
+  "modelFormProviderLabel": {
+    "message": "Model provider",
+    "description": "Provider field label"
+  },
+  "modelFormProviderNameLabel": {
+    "message": "Provider name",
+    "description": "Custom provider name label"
+  },
+  "modelFormAddressLabel": {
+    "message": "Base URL",
+    "description": "Base URL field label"
+  },
+  "modelFormDefaultModelLabel": {
+    "message": "Default model",
+    "description": "Default model field label"
+  },
+  "modelFormPleaseSelect": {
+    "message": "Please select",
+    "description": "Select placeholder"
+  },
+  "modelRefreshModels": {
+    "message": "Refresh models",
+    "description": "Refresh model list"
+  },
+  "modelBuiltinSection": {
+    "message": "Built-in browser models",
+    "description": "Builtin models section"
+  },
+  "modelNanoReady": {
+    "message": "Ready",
+    "description": "Gemini Nano ready status"
+  },
+  "modelNanoDownloadable": {
+    "message": "Available to download",
+    "description": "Gemini Nano downloadable"
+  },
+  "modelNanoDownloading": {
+    "message": "Downloading…$WAIT$",
+    "description": "Gemini Nano downloading",
+    "placeholders": {
+      "WAIT": {
+        "content": "$1"
+      }
+    }
+  },
+  "modelNanoDownloadingPercent": {
+    "message": "Downloading $PERCENT$%$WAIT$",
+    "description": "Gemini Nano download percent",
+    "placeholders": {
+      "PERCENT": {
+        "content": "$1"
+      },
+      "WAIT": {
+        "content": "$2"
+      }
+    }
+  },
+  "modelNanoWaitSuffix": {
+    "message": " · waited $SECONDS$s",
+    "description": "Wait time suffix",
+    "placeholders": {
+      "SECONDS": {
+        "content": "$1"
+      }
+    }
+  },
+  "modelNanoUnsupported": {
+    "message": "Gemini Nano not supported on this device",
+    "description": "Nano unsupported"
+  },
+  "modelNanoProgressHint": {
+    "message": "Browser may not report download progress. Open chrome://components, find Optimization Guide On Device Model, click Check for update; or see chrome://on-device-internals.",
+    "description": "Nano progress hint"
+  },
+  "modelNanoCheckStatus": {
+    "message": "Check status",
+    "description": "Check Nano status"
+  },
+  "modelNanoLoad": {
+    "message": "Download",
+    "description": "Load/download Nano"
+  },
+  "modelNanoReload": {
+    "message": "Reload",
+    "description": "Reload Nano"
+  },
+  "modelNanoStopWaiting": {
+    "message": "Stop waiting",
+    "description": "Stop waiting for Nano"
+  },
+  "modelNanoUninstall": {
+    "message": "Uninstall",
+    "description": "Open on-device internals to uninstall Nano"
+  },
+  "modelNanoUninstallHint": {
+    "message": "The model is about 4 GB; uninstalling deletes it from disk.",
+    "description": "Hint under Nano uninstall link"
+  },
+  "modelNanoUninstallCopied": {
+    "message": "Copied chrome://on-device-internals/. Paste it in the address bar to uninstall the model.",
+    "description": "Clipboard fallback when chrome:// cannot open"
+  },
+  "modelNanoUninstallFailed": {
+    "message": "Could not open the uninstall page. Enter chrome://on-device-internals/ in the address bar.",
+    "description": "Uninstall page open and copy both failed"
+  },
+  "modelPresetCustom": {
+    "message": "Custom",
+    "description": "Custom provider preset"
+  },
+  "modelValidateKeyRequired": {
+    "message": "API key is required",
+    "description": "API key validation"
+  },
+  "modelValidateNameRequired": {
+    "message": "Provider name is required",
+    "description": "Provider name validation"
+  },
+  "modelValidateUrlRequired": {
+    "message": "Base URL is required",
+    "description": "URL required validation"
+  },
+  "modelValidateUrlScheme": {
+    "message": "URL must start with http:// or https://",
+    "description": "URL scheme validation"
+  },
+  "modelListFetchFailed": {
+    "message": "Couldn't fetch model list — enter a model name manually",
+    "description": "Model list fetch failure"
+  },
+  "modelNeedProvider": {
+    "message": "Configure a provider in Options first",
+    "description": "Need provider configured"
+  },
+  "modelSelectModel": {
+    "message": "Select model",
+    "description": "Select model label"
+  },
+  "modelNanoNeedDownload": {
+    "message": "Load Gemini Nano in Options first",
+    "description": "Need Nano download"
+  },
+  "modelNanoChromeUnsupported": {
+    "message": "On-device models aren't supported in this Chrome build",
+    "description": "Chrome unsupported Nano"
+  },
+  "modelNanoDownloadFailed": {
+    "message": "Download failed, please try again",
+    "description": "Nano download failure"
+  },
+  "sendModeChatLabel": {
+    "message": "Chat",
+    "description": "Send mode: chat label"
+  },
+  "sendModeChatDescription": {
+    "message": "Call the language model",
+    "description": "Send mode: chat description"
+  },
+  "sendModeDirectStoreLabel": {
+    "message": "Direct store",
+    "description": "Send mode: direct store label"
+  },
+  "sendModeDirectStoreDescription": {
+    "message": "Save locally without calling a model",
+    "description": "Send mode: direct store description"
+  },
+  "sendModeAsyncParseLabel": {
+    "message": "Async parse",
+    "description": "Send mode: async parse label"
+  },
+  "sendModeAsyncParseDescription": {
+    "message": "Send without waiting; single-turn; save manually",
+    "description": "Send mode: async parse description"
+  },
+  "sendModeOneClickCollectLabel": {
+    "message": "One-click collect",
+    "description": "Send mode: one-click collect label"
+  },
+  "sendModeOneClickCollectDescription": {
+    "message": "Keep parse setup; auto-save; handy for continuous multi-page parsing",
+    "description": "Send mode: one-click collect description"
+  },
+  "asyncParseJobPreviewPage": {
+    "message": "Current page",
+    "description": "Async job preview when only page attachment"
+  },
+  "asyncParseJobPreviewEmpty": {
+    "message": "(empty)",
+    "description": "Async job preview fallback"
+  },
+  "asyncParseQueueStatus": {
+    "message": "Running $RUNNING$/$LIMIT$ · Queued $QUEUED$",
+    "description": "Async parse queue status strip",
+    "placeholders": {
+      "RUNNING": { "content": "$1" },
+      "LIMIT": { "content": "$2" },
+      "QUEUED": { "content": "$3" }
+    }
+  },
+  "asyncParseStopButton": {
+    "message": "Stop jobs",
+    "description": "Open async stop dialog"
+  },
+  "asyncParseStopDialogTitle": {
+    "message": "Choose jobs to stop",
+    "description": "Async stop dialog title"
+  },
+  "asyncParseStopRunning": {
+    "message": "Running",
+    "description": "Async stop section running"
+  },
+  "asyncParseStopQueued": {
+    "message": "Queued",
+    "description": "Async stop section queued"
+  },
+  "asyncParseStopConfirm": {
+    "message": "Stop selected",
+    "description": "Confirm cancel selected async jobs"
+  },
+  "asyncParseStopCancel": {
+    "message": "Cancel",
+    "description": "Dismiss async stop dialog"
+  },
+  "sidepanelMessageStop": {
+    "message": "Stop",
+    "description": "Stop streaming on a message bubble"
+  },
+  "sidepanelMessageExpand": {
+    "message": "Show more",
+    "description": "Expand long assistant bubble"
+  },
+  "sidepanelMessageCollapse": {
+    "message": "Show less",
+    "description": "Collapse long assistant bubble"
+  },
+  "optionsAsyncParseIntro": {
+    "message": "Controls the side panel send mode “Async parse”: run multiple requests at the same time without waiting for the previous one; when a reply finishes, store it manually from the message bubble.",
+    "description": "Async parse settings intro"
+  },
+  "optionsSendModeIntro": {
+    "message": "Send modes appear in the side panel menu. Built-ins are read-only; create a copy to change options (including auto-save and async concurrency).",
+    "description": "Send mode settings intro"
+  },
+  "sendModeUntitledName": {
+    "message": "Untitled send mode",
+    "description": "Default name for new send mode"
+  },
+  "sendModeForkedName": {
+    "message": "$NAME$ copy",
+    "description": "Forked send mode name",
+    "placeholders": {
+      "NAME": { "content": "$1" }
+    }
+  },
+  "sendModeCreateFailedRetry": {
+    "message": "Could not create. Try again.",
+    "description": "Create send mode failed"
+  },
+  "sendModeCreateFromFailedRetry": {
+    "message": "Could not create a copy. Try again.",
+    "description": "Fork send mode failed"
+  },
+  "sendModeBuiltinReadonlyHint": {
+    "message": "Built-in send modes cannot be edited. Create a copy first.",
+    "description": "Builtin send mode readonly hint"
+  },
+  "sendModeNameRequired": {
+    "message": "Name is required",
+    "description": "Send mode name required"
+  },
+  "sendModeDeleteConfirm": {
+    "message": "Delete “$NAME$”?",
+    "description": "Confirm delete send mode",
+    "placeholders": {
+      "NAME": { "content": "$1" }
+    }
+  },
+  "sendModeBulkDeleteConfirm": {
+    "message": "Delete $COUNT$ selected send modes? This can't be undone.",
+    "description": "Confirm bulk delete send modes",
+    "placeholders": {
+      "COUNT": { "content": "$1" }
+    }
+  },
+  "sendModeBulkDeleteBuiltinHint": {
+    "message": "Includes built-in items that won't be restored on upgrade.",
+    "description": "Bulk delete builtin send mode hint"
+  },
+  "sendModeDiscardUnsavedConfirm": {
+    "message": "Discard unsaved changes?",
+    "description": "Discard unsaved send mode edits"
+  },
+  "sendModeLoadFailed": {
+    "message": "Failed to load send modes",
+    "description": "Load send modes failed"
+  },
+  "sendModeFieldName": {
+    "message": "Name",
+    "description": "Send mode name field"
+  },
+  "sendModeFieldDescription": {
+    "message": "Description",
+    "description": "Send mode description field"
+  },
+  "sendModeFlagsLegend": {
+    "message": "Options",
+    "description": "Send mode flags legend"
+  },
+  "sendModeFlagCallModel": {
+    "message": "Call the model",
+    "description": "Flag: call model"
+  },
+  "sendModeFlagAutoSaveLabel": {
+    "message": "Auto-save",
+    "description": "Flag: auto save"
+  },
+  "sendModeFlagIncludeHistory": {
+    "message": "Include chat history",
+    "description": "Flag: include history"
+  },
+  "sendModeFlagAsyncLabel": {
+    "message": "Async (queue concurrent sends)",
+    "description": "Flag: async"
+  },
+  "sendModeFlagModel": {
+    "message": "Call model",
+    "description": "Summary: model"
+  },
+  "sendModeFlagNoModel": {
+    "message": "No model",
+    "description": "Summary: no model"
+  },
+  "sendModeFlagAsync": {
+    "message": "Async",
+    "description": "Summary: async"
+  },
+  "sendModeFlagAutoSave": {
+    "message": "Auto-save",
+    "description": "Summary: auto save"
+  },
+  "sendModeFlagManualSave": {
+    "message": "Manual save",
+    "description": "Summary: manual save"
+  },
+  "sendModeFlagHistory": {
+    "message": "History",
+    "description": "Summary: history"
+  },
+  "optionsAsyncParseMaxConcurrent": {
+    "message": "Concurrent running jobs",
+    "description": "Max concurrent async parse jobs label"
+  },
+  "optionsAsyncParseMaxConcurrentHint": {
+    "message": "Range 1–20, default 5. Extra jobs wait in queue and are not dropped.",
+    "description": "Hint for max concurrent"
+  },
+  "optionsSettingsSectionAsyncParse": {
+    "message": "Send mode",
+    "description": "Settings nav section send mode"
+  },
+  "sendModeOpenSettingsLink": {
+    "message": "Settings",
+    "description": "Sidepanel send-mode menu link to settings"
+  },
+  "sendModePickerAria": {
+    "message": "Send mode",
+    "description": "Send mode picker aria"
+  },
+  "sendModeWithLabelAria": {
+    "message": "Send mode: $LABEL$",
+    "description": "Send mode button aria with label",
+    "placeholders": {
+      "LABEL": {
+        "content": "$1"
+      }
+    }
+  },
+  "sidepanelSessionAria": {
+    "message": "Session",
+    "description": "Session select aria"
+  },
+  "sidepanelManage": {
+    "message": "Manage",
+    "description": "Open Options manage button"
+  },
+  "sidepanelDeleteSessionConfirm": {
+    "message": "Delete current session?",
+    "description": "Confirm delete session"
+  },
+  "sidepanelSessionEvicted": {
+    "message": "Session limit reached — oldest session removed",
+    "description": "Oldest session evicted notice"
+  },
+  "sidepanelRequestFailed": {
+    "message": "Request failed, please try again",
+    "description": "Chat request failure"
+  },
+  "sidepanelExportDataNotFound": {
+    "message": "No data found to export",
+    "description": "Export data not found"
+  },
+  "sidepanelExportToSidepanelFailed": {
+    "message": "Export to side panel failed",
+    "description": "Export to sidepanel failed"
+  },
+  "sidepanelDirectStoreNotJson": {
+    "message": "Not valid JSON — saved full text instead",
+    "description": "Direct store non-JSON notice"
+  },
+  "sidepanelDirectStoreCannotSave": {
+    "message": "Can't save",
+    "description": "Direct store cannot save"
+  },
+  "sidepanelInputPlaceholder": {
+    "message": "Type a message… or / to pick a skill",
+    "description": "Chat input placeholder"
+  },
+  "sidepanelReadPageArmedTitle": {
+    "message": "Auto page collect armed",
+    "description": "Read page button title when one-click auto collect is armed"
+  },
+  "sidepanelReadPage": {
+    "message": "Read current page",
+    "description": "Read page button"
+  },
+  "sidepanelReadingPage": {
+    "message": "Reading…",
+    "description": "Reading page in progress"
+  },
+  "sidepanelStop": {
+    "message": "Stop",
+    "description": "Stop streaming"
+  },
+  "sidepanelSend": {
+    "message": "Send",
+    "description": "Send button"
+  },
+  "sidepanelEmptyMessages": {
+    "message": "No messages yet",
+    "description": "Empty message list"
+  },
+  "sidepanelMessageSaved": {
+    "message": "Saved",
+    "description": "Message saved feedback"
+  },
+  "sidepanelMessageStored": {
+    "message": "Stored",
+    "description": "Message stored badge"
+  },
+  "sidepanelStoreMessage": {
+    "message": "Store",
+    "description": "Store message button"
+  },
+  "sidepanelCopyAria": {
+    "message": "Copy",
+    "description": "Copy message aria"
+  },
+  "attachmentRemoveAria": {
+    "message": "Remove attachment",
+    "description": "Remove attachment aria"
+  },
+  "attachmentCopyPageContent": {
+    "message": "Copy page content",
+    "description": "Copy page content"
+  },
+  "attachmentBodyNotSavedRecord": {
+    "message": "Body not saved — re-export from Data",
+    "description": "Missing record body"
+  },
+  "attachmentBodyNotSavedPage": {
+    "message": "Body not saved — read the current page again",
+    "description": "Missing page body"
+  },
+  "attachmentLoadOriginal": {
+    "message": "Load original page HTML",
+    "description": "Load original page HTML"
+  },
+  "attachmentSimplifyMarkdown": {
+    "message": "Simplify to Markdown",
+    "description": "Simplify to Markdown"
+  },
+  "attachmentStripNoise": {
+    "message": "Strip noise",
+    "description": "Strip noise"
+  },
+  "sessionDefaultTitle": {
+    "message": "Chat",
+    "description": "Default session title"
+  },
+  "recordTitleUserMessage": {
+    "message": "User message",
+    "description": "Default title for user message record"
+  },
+  "recordTitleAssistantMessage": {
+    "message": "Assistant message",
+    "description": "Default title for assistant message record"
+  },
+  "recordTitleArrayItems": {
+    "message": "Array · $COUNT$ items",
+    "description": "Array record title",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "recordTitleObjectItems": {
+    "message": "$OBJECT$ · $COUNT$ items",
+    "description": "Object array record title",
+    "placeholders": {
+      "OBJECT": {
+        "content": "$1"
+      },
+      "COUNT": {
+        "content": "$2"
+      }
+    }
+  },
+  "recordSelectedBundleTitle": {
+    "message": "$COUNT$ selected",
+    "description": "Multi-select attachment title",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "recordNoJsonFound": {
+    "message": "No storable JSON found",
+    "description": "No JSON to save"
+  },
+  "errorReadDomNoTab": {
+    "message": "No tab available to read",
+    "description": "No readable tab"
+  },
+  "errorReadDomRestricted": {
+    "message": "Can't read this page (system or protected page)",
+    "description": "Restricted page read"
+  },
+  "errorReadDomFail": {
+    "message": "Failed to read page, please try again",
+    "description": "Page read failure"
+  },
+  "errorExportNoSelection": {
+    "message": "No data selected",
+    "description": "No export selection"
+  },
+  "errorExportSidepanelOpenFailed": {
+    "message": "Couldn't open side panel",
+    "description": "Sidepanel open failure"
+  },
+  "errorDriverNotImplemented": {
+    "message": "Storage driver not implemented: $DRIVER$",
+    "description": "Unimplemented storage driver",
+    "placeholders": {
+      "DRIVER": {
+        "content": "$1"
+      }
+    }
+  },
+  "extensionName": {
+    "message": "GatherStack",
+    "description": "Extension display name (GatherStack)"
+  },
+  "extensionDescription": {
+    "message": "One-click extract key fields from products, listings, and jobs, pack them for AI comparison—data stays 100% on your device.",
+    "description": "Extension store/description text"
+  }
+}

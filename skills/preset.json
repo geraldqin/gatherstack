@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "builtinId": "rent-compare-collect",
+      "version": "1.0.0",
+      "locales": {
+        "zh": "租房对比采集/SKILL.md",
+        "en": "租房对比采集/SKILL.en.md"
+      }
+    },
+    {
+      "builtinId": "rent-compare-evaluate",
+      "version": "1.0.0",
+      "locales": {
+        "zh": "租房避坑评估/SKILL.md",
+        "en": "租房避坑评估/SKILL.en.md"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bright tip travels along a fixed rounded border (not a spinning disc). */
+@property --mpm-autocast-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes mpm-autocast-spin {
+  to {
+    --mpm-autocast-angle: 360deg;
+  }
+}
+
+.mpm-autocast-ring {
+  border-radius: 0.375rem;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--mpm-autocast-angle),
+    transparent 0deg,
+    transparent 300deg,
+    rgb(251 191 36 / 0.35) 320deg,
+    rgb(245 158 11) 345deg,
+    rgb(254 243 199) 360deg
+  );
+  animation: mpm-autocast-spin 1.2s linear infinite;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.mpm-autocast-armed {
+  box-shadow: 0 0 0 1px rgb(245 158 11 / 0.4);
+}
